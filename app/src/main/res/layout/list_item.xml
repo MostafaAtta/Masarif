@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/view_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="6dp"
+        android:background="@drawable/myrect">
+
+
+        <TextView
+            android:id="@+id/trans_date"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/iron"
+            android:gravity="center"
+            android:text="Sat, 08 Jun"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/trans_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="Test"
+            android:textSize="13dp" />
+
+
+        <TextView
+            android:id="@+id/trans_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="end"
+            android:text="125" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="EGP" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/right_arrow"/>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
